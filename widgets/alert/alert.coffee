@@ -8,4 +8,4 @@ class Dashing.Alert extends Dashing.Widget
     # You can access the html node of this widget with `@node`
     # Example: $(@node).fadeOut().fadeIn() will make the node flash each time data comes in.
   @accessor 'isTooHigh', -> 
-	@get('value') > 300
+	  @get('value') > 300
